@@ -18,7 +18,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "state-demo-secure" {
-  name     = "state-demo"
+resource "azurerm_resource_group" "tf-rg" {
+  name     = "rg-kul"
   location = "eastus"
 }
