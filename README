@@ -1,0 +1,7 @@
+# configure terraform backend with azure storage
+https://learn.microsoft.com/en-us/azure/developer/terraform/store-state-in-azure-storage?tabs=azure-cli
+
+# azurerm backend authentication
+https://developer.hashicorp.com/terraform/language/backend/azurerm
+
+
