@@ -1,0 +1,5 @@
+resource_group_name     = "mytftest"
+location               = "East US"
+storage_account_name    = "mytftest090787"
+account_tier            = "Standard"
+account_replication_type = "LRS"
