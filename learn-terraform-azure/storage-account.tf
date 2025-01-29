@@ -14,3 +14,8 @@ output "storage_account_id" {
 output "storage_account_name" {
     value = module.storage-account.storage_account_name
 }
+
+resource "azurerm_storage_container" "container" {
+    name = "content"
+    storage_account_name = module.storage-account.storage_account_name
+}
